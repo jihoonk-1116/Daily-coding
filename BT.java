@@ -1,6 +1,6 @@
 //10.28.21
 
-Public class BST{
+Public class BT{
     private  Node root;
     private class Node{
         private Node right;
