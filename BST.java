@@ -52,5 +52,19 @@ Public class BST{
         postOrder(root.right) //Then right
         System.print.out(root.data) //Print node
     }
+    
+    public int findMax(){
+        return findMax(this.root);
+    }
+    
+    public int findMax(Node root){
+        if(root == null) return Integer.MIN_VALUE //return lowest value not to interupt comparing step.
+        
+        int leftMax = findMax(root.left);
+        int rightMax = findMax(root.right);
+        
+        if(leftMax > rightMax) return leftMax;
+        else rightMax;
+    }
   
 }
