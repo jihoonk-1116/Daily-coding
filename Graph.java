@@ -7,8 +7,8 @@ public class Graph{
     private int[][] adjMatrix;
     
     public Graph(int nodes){
-        this.V = nodes;
-        this.E = 0;
+        this.V = nodes; //The number of vertices
+        this.E = 0;     //The number of edges
         this.adjMatrix = new int[nodes][nodes];
     }
     
@@ -19,7 +19,7 @@ public class Graph{
     }
 
     
-    public void bfs(int s){
+    public void bfs(int s){ //Breadth First Search
       boolean[] visited = new boolean[V]; // V = the number of vertices
       Queue<Integer> q = new LinkedList<>();  //FIFO
       visited[s] = true; // Check 'visited' at the starting point
@@ -38,7 +38,7 @@ public class Graph{
       }
     }
     
-    public void dfs(){
+    public void dfs(){ //Depth First Search
       boolean[] visited = new boolean[V]; //Initialize visited boolean array, V= the number of vertices
       for(int v=0;v<V;v++){ //To invoke dfs method recursivly by the order adjacent node from s
         if(!visted[v]){ //If the node is not visited, the call dfs
