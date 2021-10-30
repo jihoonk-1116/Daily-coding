@@ -1,7 +1,24 @@
 //10-29-21
+//10-30-21
 
 public class Graph{
+    private int V;
+    private int E;
+    private int[][] adjMatrix;
+    
+    public Graph(int nodes){
+        this.V = nodes;
+        this.E = 0;
+        this.adjMatrix = new int[nodes][nodes];
+    }
+    
+    public void addEdge(int u, int v){
+        this.adjMatrix[u][v]=1;
+        this.adjMatrix[v][u]=1; //undirected graph
+        E++; //Increase edge
+    }
 
+    
     public void bfs(int s){
       boolean[] visited = new boolean[V]; // V = the number of vertices
       Queue<Integer> q = new LinkedList<>();  //FIFO
@@ -37,5 +54,25 @@ public class Graph{
           dfs(w,visited);
         }
       }
+    }
+}
+
+public class Graph2{ //Representation an undirected graph using LinkedList
+    private LinkedList<Integer>[] adj;
+    private int V;
+    private int E;
+    
+    public Graph2(int nodes){
+        this.V = nodes;
+        this.E = 0;
+        this.adj = new LinkedList<nodes>;
+        for(int i=0;i<nodes;i++){
+            this.adj[i] = new LinkedList<>();
+        }
+    }
+    public void addEdge(int u, int v){
+        this.adj[u].add(v);
+        this.adj[v].add(u);
+        E++;
     }
 }
