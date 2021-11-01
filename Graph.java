@@ -29,7 +29,7 @@ public class Graph{
         int u = q.poll();
         System.out.println(u + " "); //Print the order of FIFO
         
-        for(int v : adj[u]){
+        for(int v : adjMatrix[u]){ //v will be an index of u ex) [u][v]
           if(!visited[v]){ //If the vertice is not visited before, 
             visited[v] = true; //Check the flag
             q.offer(v); //Add the v to queue
