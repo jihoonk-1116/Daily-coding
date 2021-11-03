@@ -8,3 +8,4 @@ Personal challenge
 10.31.21 - BST, insert()<br>
 11.1.21 - Upload Data Analytics project<br>
 11.2.21 - Upload Microservices API
+11.3.21 - searchByKey() method in BST
