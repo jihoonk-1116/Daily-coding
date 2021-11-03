@@ -26,12 +26,19 @@ public class BST{
         }                                         //so, invoke insert method to move to the right
         return node;
       }
-  public void inorder(TreeNode node){ //inorder traveral (left - parent - right)
-    if(node == null){
-      return;
+    public TreeNode searchByKey(TreeNode tn, int key){
+        if(tn == null || tn.data == key) return tn; //base case
+        if(key < tn.data) return searchByKey(tn.left, key); //Search left in order to finding the value that is less than root
+        else return searchByKey(tn.right. key); //Search right in order to finding the value that is bigger than root
+                                     
     }
-    inorder(node.left);
-    System.out.println(node.data);
-    inorder(node.right);
+    
+    public void inorder(TreeNode node){ //inorder traveral (left - parent - right)
+        if(node == null){
+          return;
+        }
+        inorder(node.left);
+        System.out.println(node.data);
+        inorder(node.right);
   }
 }
