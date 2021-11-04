@@ -8,4 +8,5 @@ Personal challenge
 10.31.21 - BST, insert()<br>
 11.1.21 - Uploaded Data Analytics project<br>
 11.2.21 - Uploaded Microservices API<br>
-11.3.21 - Implemented searchByKey() method in BST
+11.3.21 - Implemented searchByKey() method in BST<br>
+11.4.21 - Leetcode 36.Valid Sudoku, 
