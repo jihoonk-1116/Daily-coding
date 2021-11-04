@@ -53,13 +53,13 @@ public boolean isValidSudoku(char[][] board) {
         HashSet<Character> columns = new HashSet<Character>();
         HashSet<Character> cube = new HashSet<Character>();
         for (int j = 0; j < 9;j++){
-            if(board[i][j]!='.' && !rows.add(board[i][j]))
+            if(board[i][j]!='.' && !rows.add(board[i][j])) // Check row
                 return false;
-            if(board[j][i]!='.' && !columns.add(board[j][i]))
+            if(board[j][i]!='.' && !columns.add(board[j][i])) // Check column
                 return false;
-            int RowIndex = 3*(i/3);
-            int ColIndex = 3*(i%3);
-            if(board[RowIndex + j/3][ColIndex + j%3]!='.' && !cube.add(board[RowIndex + j/3][ColIndex + j%3]))
+            int RowIndex = 3*(i/3); //0 .. 1 .. 2 -> 0 0 0 3 3 3 6 6 6
+            int ColIndex = 3*(i%3); //0 1 2 0 1 2 0 1 2 -> 0 3 6 0 3 6 0 3 6                    
+            if(board[RowIndex + j/3][ColIndex + j%3]!='.' && !cube.add(board[RowIndex + j/3][ColIndex + j%3])) // [0][0,1,2] [1][0,1,2] [2][0,1,2]
                 return false;
         }
     }
