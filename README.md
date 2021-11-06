@@ -9,4 +9,5 @@ Personal challenge
 11.1.21 - Uploaded Data Analytics project<br>
 11.2.21 - Uploaded Microservices API<br>
 11.3.21 - Implemented searchByKey() method in BST<br>
-11.4.21 - Leetcode 36.Valid Sudoku, 
+11.4.21 - Leetcode 36.Valid Sudoku <br>
+11.5.21 - Leetcode 1. Two sum <br>
