@@ -47,4 +47,50 @@ public class Sorting{
         arr[i] = temp;
       }
   }
+    /*
+    From https://www.geeksforgeeks.org/merge-sort/
+    MergeSort(arr[], l,  r)
+    If r > l
+     1. Find the middle point to divide the array into two halves:  
+             middle m = l+ (r-l)/2
+     2. Call mergeSort for first half:   
+             Call mergeSort(arr, l, m)
+     3. Call mergeSort for second half:
+             Call mergeSort(arr, m+1, r)
+     4. Merge the two halves sorted in step 2 and 3:
+             Call merge(arr, l, m, r)
+    */
+  public void sort(int[] arr, int[] temp, int low, int high){
+     if(low < high){
+          int mid= low+(high-low)/2;
+          sort(arr,temp,low,mid);
+          sort(arr,temp,mid+1,high);
+          merge(arr,temp,low,high);
+      }
+   }
+   private void merge(int[] arr, int[] temp, int low, int high){
+        for(int i=low;i<=high;i++){
+            temp[i] = arr[i];
+        }
+       int i=low;
+       int j = mid + 1;
+       int k = low;
+       
+       while(i<=mid&&j<=high){
+        if(temp[i]<=temp[j]){
+            arr[k] = temp[i];
+            i++;
+        }
+        else{
+            arr[k] = temp[j];
+            j++;
+        }
+        k++;
+      }
+       while(i<=mid){
+           arr[k] = temp[i];
+           k++;
+           i++;
+       }
+   }
 }
