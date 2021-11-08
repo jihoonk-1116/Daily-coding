@@ -1,7 +1,5 @@
 # Daily-coding
 
-#### Reference from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
-
 Personal challenge
 
 10.28.21 - BT, Traveral<br>
@@ -15,3 +13,6 @@ Personal challenge
 11.5.21 - Leetcode 1. Two sum <br>
 11.6.21 - Solved Fibonacci number using Dynamic Programming<br>
 11.7.21 - Sorting methods : Selection, Bubble, Insertion, Merge
+
+
+#### Reference from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
