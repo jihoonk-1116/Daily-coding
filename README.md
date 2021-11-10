@@ -13,6 +13,8 @@ Personal challenge
 11.5.21 - Leetcode 1. Two sum <br>
 11.6.21 - Solved Fibonacci number using Dynamic Programming<br>
 11.7.21 - Sorting methods : Selection, Bubble, Insertion, Merge
+11.8.21 - 
+11.9.21 - MaxSubArraySum using Kadane's Algorithm (DP)
 
 
 #### Reference from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
