@@ -12,8 +12,8 @@ Personal challenge
 11.4.21 - Leetcode 36.Valid Sudoku <br>
 11.5.21 - Leetcode 1. Two sum <br>
 11.6.21 - Solved Fibonacci number using Dynamic Programming<br>
-11.7.21 - Sorting methods : Selection, Bubble, Insertion, Merge
-11.8.21 - 
+11.7.21 - Sorting methods : Selection, Bubble, Insertion, Merge<br>
+11.8.21 - RomanNumber <br>
 11.9.21 - MaxSubArraySum using Kadane's Algorithm (DP)
 
 
