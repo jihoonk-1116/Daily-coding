@@ -17,16 +17,16 @@ public class Tree {
 	}
 	
 	public TreeNode insertNode(TreeNode root, int value){
-		if(root == null) { 							//Base case : assign node
+		if(root == null) { 			//Base case : assign node
 			root = new TreeNode(value);
 			return root;
 		}
-		if(root.data > value) { 					//if inserted integer data is less than the current value, 
+		if(root.data > value) { 		//if inserted integer data is less than the current value, 
 			root.left=insertNode(root.left, value); //then the data should be placed at the left side of the current node
-		}											//so, invoke insert method to move to the left
-		else 										//if inserted integer data is less than the current value, 
+		}						//so, invoke insert method to move to the left
+		else 						//if inserted integer data is less than the current value, 
 			root.right = insertNode(root.right, value);  //then the data should be placed at the right side of the current node
-		 												//so, invoke insert method to move to the right
+		 						//so, invoke insert method to move to the right
 		return root;
 		
 	}
@@ -41,10 +41,10 @@ public class Tree {
         if(tn == null || tn.data == key) return tn; //base case
         
         if(key < tn.data) return searchByKey(tn.left, key); //Search left in order to finding the value that is less than root
-        else return searchByKey(tn.right, key); //Search right in order to finding the value that is bigger than root
+        else return searchByKey(tn.right, key); 	    //Search right in order to finding the value that is bigger than root
                                      
     }
-	public void inorder(TreeNode root) {
+	public void inorder(TreeNode root) { //left -> root > right
 		if(root == null) return;
 		
 		inorder(root.left);
