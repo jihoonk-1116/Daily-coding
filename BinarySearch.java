@@ -4,31 +4,32 @@
 class Solution {
     public int search(int[] nums, int target) {
         
-        int s=0, m = nums.length/2 - 1;
+        int s=0, m = nums.length/2 - 1; //using pre-fixed pivot
         
-        if(m<2){
+        if(m<2){ //if the nums array is less than length 4
             for(int i = s; i<nums.length;i++){
                  if(nums[i] == target) return i;
              }
         }
         else if(nums[m] == target) return m;
         
-        else if(nums[m] < target) {
-            
+        else if(nums[m] < target) { //if target is greater than the middle element of the nums
+                                    //iterate the half of the right side of the array because the array was sorted
              s = m;
              m = nums.length;
             
              for(int i = s; i<m;i++){
-                 if(nums[i] == target) return i;
+                 if(nums[i] == target) return i; //if success to find, return index
              }
         }
         else{
-            
+            //if target is less than the middle element of the nums
+            //iterate the half of the left side of the array because the array was sorted
              for(int i = s; i<m;i++){
-                 if(nums[i] == target) return i;
+                 if(nums[i] == target) return i; //if success to find, return index
              }
         }    
-        return -1;
+        return -1; //Not found
     }
 }
 
