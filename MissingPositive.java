@@ -13,4 +13,4 @@ class Solution {
         return smallest;
     }
 }
-//O(n) time
+//O(n) time because O(2n) = O(n)
