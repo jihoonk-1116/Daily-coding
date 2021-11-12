@@ -16,7 +16,8 @@ Personal challenge
 11.8.21 - Leetcode 13. Roman Number, 9. Palindrome Number <br>
 11.9.21 - MaxSubArraySum using Kadane's Algorithm (DP)<br>
 11.10.21 - Uploaded Data Analytics project2 draft, Leetcode 41. Missing smallest positive integer<br>
-11.11.21 - Leetcode 704.Binary Search ,Leetcode 278.First Bad Version, Updated Data Analytics project final
+11.11.21 - Leetcode 704.Binary Search ,Leetcode 278.First Bad Version, Updated Data Analytics project final<br>
+11.12.21 - Leetcode 977. Squares of a Sorted Array
 
 
 #### Reference from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
