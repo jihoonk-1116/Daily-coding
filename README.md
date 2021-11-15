@@ -19,7 +19,7 @@ Personal challenge
 11.11.21 - Leetcode 704.Binary Search ,Leetcode 278.First Bad Version, Updated Data Analytics project final<br>
 11.12.21 - Leetcode 977. Squares of a Sorted Array<br>
 11.13.21 - Leetcode 189. Rotate Array <br>
-11.14.21 - Leetcode 167. Two Sum II
+11.14.21 - Leetcode 167. Two Sum II, Leetcode 344. Reverse String
 
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
