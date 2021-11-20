@@ -24,7 +24,7 @@ Personal challenge
 11.16.21 - Leetcode 3. Longest Substring Without Repeating Characters, Leetcode 509. Fibonacci Number<br>
 11.17.21 - Leetcode 617. Merge Two Binary Trees<br>
 11.18.21 - Data Analytics project3 draft <br>
-11.19.21 - Palindrome in python
+11.19.21 - Palindrome in python<br>
 11.20.21 - TwoSum in Python
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
