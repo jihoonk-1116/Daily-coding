@@ -23,6 +23,7 @@ Personal challenge
 11.15.21 - Leetcode 557. Revser String III , Leetcode 876. Middle of the Linked List, Leetcode 19.Remove Nth Node From End of the List<br>
 11.16.21 - Leetcode 3. Longest Substring Without Repeating Characters, Leetcode 509. Fibonacci Number<br>
 11.17.21 - Leetcode 617. Merge Two Binary Trees<br>
-11.18.21 - Data Analytics project3 draft
+11.18.21 - Data Analytics project3 draft <br>
+11.19.21 - Palindrome in python
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
