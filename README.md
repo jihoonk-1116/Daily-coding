@@ -25,9 +25,9 @@ Personal challenge
 11.17.21 - Leetcode 617. Merge Two Binary Trees<br>
 11.18.21 - Data Analytics project3 draft <br>
 11.19.21 - Palindrome in python<br>
-11.20.21 - TwoSum in Python
-11.21.21 - Updated Spring Boot project
-11.22.21 - Updated Data Analytics project3 
+11.20.21 - TwoSum in Python<br>
+11.21.21 - Updated Spring Boot project<br>
+11.22.21 - Updated Data Analytics project3 <br>
 
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
