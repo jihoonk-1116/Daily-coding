@@ -28,6 +28,6 @@ Personal challenge
 11.20.21 - TwoSum in Python<br>
 11.21.21 - Updated Spring Boot project<br>
 11.22.21 - Updated Data Analytics project3 <br>
-
+11.23.21 - Move Zeros <br>
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
