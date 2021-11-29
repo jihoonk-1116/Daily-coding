@@ -31,5 +31,7 @@ Personal challenge
 11.23.21 - Move Zeros <br>
 11.24.21 - Spring Boot GetMapping using RestController annotation <br>
 11.26.21 - Spring Boot TodoDTO, TestService, TestController<br>
+11.27.21 - Spring Boot Implemented TodoService: Get, Post, Put API <br>
+11.28.21 - Computational Finance draft final project
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
