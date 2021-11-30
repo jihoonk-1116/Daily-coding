@@ -33,6 +33,6 @@ Personal challenge
 11.26.21 - Spring Boot TodoDTO, TestService, TestController<br>
 11.27.21 - Spring Boot Implemented TodoService: Get, Post, Put API <br>
 11.28.21 - Computational Finance draft final project <br>
-11.29.21 - Solved Computational Finance Part1 
+11.29.21 - Solved Computational Finance final project Part1 
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
