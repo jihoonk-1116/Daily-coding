@@ -34,6 +34,8 @@ Personal challenge
 11.27.21 - Spring Boot Implemented TodoService: Get, Post, Put API <br>
 11.28.21 - Computational Finance draft final project <br>
 11.29.21 - Solved Computational Finance final project Part1 <br>
-11.30.21 - Implemented some methods for Computaional Finance final project part2
+11.30.21 - Implemented calc_fair_value() in DCF_model.py to calculate company's fair value <br>
+12.01.21 - Implemented the classes of SimpleMoveingAverage, ExponentialMovingAverages, RSI in TA.py <br>
+12.02.21 - Completed run_analysis.py to gather matrics to analysis company's value and write the data into StockUniverseOutPut.csv file
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
