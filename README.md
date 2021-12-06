@@ -38,5 +38,8 @@ Personal challenge
 12.01.21 - Implemented the classes of SimpleMoveingAverage, ExponentialMovingAverages, RSI in TA.py <br> 
 12.02.21 - Completed run_analysis.py to gather matrics to analysis company's value and write the data into StockUniverseOutPut.csv file <br>
 12.03.21 - Change codes in bond.py , bond_calcalator.py for better readability <br>
+12.04.21 - <br>
+12.05.21 - 
+
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
