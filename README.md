@@ -37,9 +37,10 @@ Personal challenge
 11.30.21 - Implemented calc_fair_value() in DCF_model.py to calculate company's fair value <br>
 12.01.21 - Implemented the classes of SimpleMoveingAverage, ExponentialMovingAverages, RSI in TA.py <br> 
 12.02.21 - Completed run_analysis.py to gather matrics to analysis company's value and write the data into StockUniverseOutPut.csv file <br>
-12.03.21 - Change codes in bond.py , bond_calcalator.py for better readability <br>
-12.04.21 - <br>
-12.05.21 - 
+12.03.21 - Changed codes in bond.py , bond_calcalator.py for better readability <br>
+12.04.21 - Changed codes in TA.py , Stock.py to debug<br>
+12.05.21 - Implemented get_rsi(), get_total_debt(), get_PE_ratio() in run_analysis.py
+12.06.21 - Implemented Todo's Delete API of Spring Boot project<br> 
 
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
