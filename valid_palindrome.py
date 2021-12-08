@@ -27,3 +27,11 @@ class Solution:
                 return False
         
         return True
+
+ #3 - use slicing
+class Solution:
+    def isPalindrome(self, s):
+        s= s.lower()
+        s = re.sub('[^a-z0-9]','',s)
+        
+        return s == s[::-1] #reverse slicing
