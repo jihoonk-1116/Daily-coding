@@ -42,6 +42,7 @@ Personal challenge
 12.05.21 - Implemented get_rsi(), get_total_debt(), get_PE_ratio() in run_analysis.py
 12.06.21 - Implemented Todo's Delete API of Spring Boot project<br> 
 12.07.21 - Solved Leetcode.125 Valid Palindrome in Python with 3 approaches <br>
+12.08.21 - Data Analytics Final project draft
 
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
