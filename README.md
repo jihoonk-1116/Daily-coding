@@ -2,10 +2,13 @@
 
 Personal challenge
 
+## Oct. 2021
 10.28.21 - BT, Traveral<br>
 10.29.21 - BSF(Breadth First Serach), DFS(Depth First Search)<br>
 10.30.21 - Graph representation<br>
 10.31.21 - BST, insert()<br>
+
+## Nov. 2021
 11.1.21 - Uploaded Data Analytics project<br>
 11.2.21 - Uploaded Microservices API<br>
 11.3.21 - Implemented searchByKey() method in BST<br>
@@ -35,6 +38,8 @@ Personal challenge
 11.28.21 - Computational Finance draft final project <br>
 11.29.21 - Solved Computational Finance final project Part1 <br>
 11.30.21 - Implemented calc_fair_value() in DCF_model.py to calculate company's fair value <br>
+
+# Dec. 2021
 12.01.21 - Implemented the classes of SimpleMoveingAverage, ExponentialMovingAverages, RSI in TA.py <br> 
 12.02.21 - Completed run_analysis.py to gather matrics to analysis company's value and write the data into StockUniverseOutPut.csv file <br>
 12.03.21 - Changed codes in bond.py , bond_calcalator.py for better readability <br>
@@ -49,7 +54,7 @@ Personal challenge
 12.12.21 - Finalized DNA parser in C++ <br>
 12.13.21 - Completed Data analytics final project <br> 
 12.14.21 - Leetcode 49. GroupAnagrams <br>
-12.15.21 - Started to develop the front-end part of the Spring project using React - React App initialization, Implementation of App.js and Todo.js components <br>
+12.15.21 - Started to develop the front-end part of the Spring project using React - React App initialization, Implementation of App.js and Todo.js components
            Leetcode 5. Longest Palindrome SubString, Leetcode 42. Trapping Rain Water
 
 
