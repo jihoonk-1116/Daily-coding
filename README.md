@@ -1,6 +1,6 @@
 # Daily-coding
 
-Personal challenge
+Personal challenge to enhence programming skill and expand developing knowledge on my own.
 
 ## Oct. 2021
 10.28.21 - BT, Traveral<br>
