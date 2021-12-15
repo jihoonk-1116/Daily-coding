@@ -50,9 +50,9 @@ Personal challenge
 12.08.21 - Data Analytics Final project draft <br>
 12.09.21 - Data Analytics Final project - import csv, data pre-processing, EDA <br>
 12.10.21 - Leetcode 937.Reorder Log Files <br>
-12.11.21 - Implemented DNA parser in C++ <br>
-12.12.21 - Finalized DNA parser in C++ <br>
-12.13.21 - Completed Data analytics final project <br> 
+12.11.21 - Implemented DNA parser using pointers in C++ as a draft<br>
+12.12.21 - Finalized DNA parser using Find() and substr() in C++  <br>
+12.13.21 - Completed Data analytics final project - Nomalization numerical variables, Utilized Logistic Regression, Random Forest, Decision Tree -> 79% ~ 80% accuracy <br> 
 12.14.21 - Leetcode 49. GroupAnagrams <br>
 12.15.21 - Started to develop the front-end part of the Spring project using React - React App initialization, Implementation of App.js and Todo.js components
            Leetcode 5. Longest Palindrome SubString, Leetcode 42. Trapping Rain Water
