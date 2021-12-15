@@ -47,7 +47,10 @@ Personal challenge
 12.10.21 - Leetcode 937.Reorder Log Files <br>
 12.11.21 - Implemented DNA parser in C++ <br>
 12.12.21 - Finalized DNA parser in C++ <br>
-12.13.21 - Completed Data analytics final project 
+12.13.21 - Completed Data analytics final project <br> 
+12.14.21 - Leetcode 49. GroupAnagrams <br>
+12.15.21 - Started to develop the front-end part of the Spring project using React - React App initialization, Implementation of App.js and Todo.js components <br>
+           Leetcode 5. Longest Palindrome SubString, Leetcode 42. Trapping Rain Water
 
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
