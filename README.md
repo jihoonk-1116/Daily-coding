@@ -53,9 +53,8 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 12.11.21 - Implemented DNA parser using pointers in C++ as a draft<br>
 12.12.21 - Finalized DNA parser using Find() and substr() in C++  <br>
 12.13.21 - Completed Data analytics final project - Nomalization numerical variables, Utilized Logistic Regression, Random Forest, Decision Tree -> 79% ~ 80% accuracy <br> 
-12.14.21 - Leetcode 49. GroupAnagrams <br>
-12.15.21 - Started to develop the front-end part of the Spring project using React - React App initialization, Implementation of App.js and Todo.js components
-           Leetcode 5. Longest Palindrome SubString, Leetcode 42. Trapping Rain Water
+12.14.21 - Leetcode 49. GroupAnagrams, Leetcode 5. Longest Palindrome SubString, Leetcode 42. Trapping Rain Water<br>
+12.15.21 - Started to develop the front-end part of the Spring project using React - React App initialization, Implementation of App.js and Todo.js components. Implemented AddTodo.js to save an user's todo and delete() method. Developed event handlers for add() and delete() <br>
 
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
