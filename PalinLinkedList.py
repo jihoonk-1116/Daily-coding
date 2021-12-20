@@ -40,3 +40,19 @@ class Solution:
         return True
     
 # solution#2 takes 844 ms whereas solution#1 takes 2302ms.  
+# solution3 : two pointers -> slow , fast pointers
+class Solution:
+    def isPalindrome(self, head: Optional[ListNode]) ->bool:
+        rev = None
+        slow = fast = head
+        while fast is not None and fast.next is not None:
+            fast = fast.next.next
+            rev, rev.next, slow = slow, rev, slow.next      #add new node in front of the rev list
+            
+        if fast is not None:   #In case that list.size is odd
+            slow = slow.next
+        
+        while rev and rev.val == slow.val:
+            slow, rev = slow.next, rev.next
+            
+        return not rev
