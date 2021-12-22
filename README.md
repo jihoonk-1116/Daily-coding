@@ -58,6 +58,8 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 12.16.21 - Leetcode 15.Three Sum <br>
 12.17.21 - Developed Front-end server using React and Integrated with Springboot Back-end server : Used Fetch call (GET, POST, DELETE, PUT), Solved CORS setting configuration  <br>
 12.18.21 - Implemented checkboxEventHandler, Solved Leetcode.238 , Leetcode 121 <br> 
-
+12.19.21 - Leetcode 234, Leetcode 21, Leetcode 206 <br>
+12.20.21 - Data analytics final exam <br>
+12.21.21 - Computational finance final exam <br>
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
