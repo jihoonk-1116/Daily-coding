@@ -61,6 +61,8 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 12.19.21 - Leetcode 234, Leetcode 21, Leetcode 206 <br>
 12.20.21 - Data analytics final exam <br>
 12.21.21 - Computational finance final exam <br>
-12.23.21 - Spring projct : Implementation of User layer - UserEntity, UserRepository, UserController, UserService, UserDTO <br>
+12.23.21 - Spring project : Implementation of User layer - UserEntity, UserRepository, UserController, UserService, UserDTO <br>
+12.28.21 - Spring project : Implemented authentication system using JWT <br>
+12.29.21 - Leetcode 20
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
