@@ -65,4 +65,11 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 12.28.21 - Spring project : Implemented authentication system using JWT <br>
 12.29.21 - Leetcode 20
 
+## Jan. 2022
+
+1.04 - SpringBoot JWT example <br>
+1.05 - Springboot-aws project(implemented filiter chain for JWT authentication and authentication system on backend side, crypted password) <br>
+
+
+
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
