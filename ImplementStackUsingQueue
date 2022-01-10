@@ -1,0 +1,26 @@
+class MyStack:
+
+    def __init__(self):
+        self.q = collections.deque() #Use deque's operation only 
+
+    def push(self, x: int) -> None:
+        self.q.append(x) #Append new element as the last
+        for _ in range(len(self.q)-1): 
+            self.q.append(self.q.popleft()) #Append previous elements to the queue the order by top to bottom
+
+    def pop(self) -> int:
+        return self.q.popleft() #pop the top to remove
+
+    def top(self) -> int:
+        return self.q[0] #return the top without deletion
+
+    def empty(self) -> bool:
+        return len(self.q) == 0 #return true if the q's length is 0. if not, return false
+
+
+# Your MyStack object will be instantiated and called as such:
+# obj = MyStack()
+# obj.push(x)
+# param_2 = obj.pop()
+# param_3 = obj.top()
+# param_4 = obj.empty()
