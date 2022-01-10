@@ -70,7 +70,7 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 1.04 - SpringBoot JWT example <br>
 1.05 - Springboot-aws project(implemented filiter chain for JWT authentication and authentication system on backend side, crypted password) <br>
 1.06 - init Todo app's login page <br>
-1.07 - Completed login, sign up pages. Implemented signup, signin api call, resolved react warning 
+1.07 - Completed login, sign up pages. Implemented signup, signin api call, resolved react warning <br>
 1.09 - Leetcode 225.Implement Stack Using Queues
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
