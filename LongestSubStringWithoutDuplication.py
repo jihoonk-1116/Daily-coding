@@ -1,4 +1,4 @@
-#Sliding Window 
+#Sliding Window and Hash
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
