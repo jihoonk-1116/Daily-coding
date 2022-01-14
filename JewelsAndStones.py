@@ -1,3 +1,16 @@
+#Approach 1 : Counter collection
+
+class Solution:
+    def numJewelsInStones(self, jewels: str, stones: str) -> int:
+        freqs = collections.Counter(stones)
+        count = 0
+        
+        for c in jewels:
+            count += freqs[c]
+            
+        return count
+
+#Approach 2 : Dictionary
 class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
         freqs = {}
