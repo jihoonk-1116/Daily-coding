@@ -75,5 +75,6 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 1.10 - Leetcode 622.Design Circular Queue, Began to integrate Todo Application with AWS <br>
 1.11 - Created EBS to deploy Todo app's backend , Deployed backend app using EBS of AWS <br>
 1.12 - Leetcode 23.Merge K Sorted Lists <br>
+1.13 - Leetcode 347.Top K Frequent Element, Leetcode 3. Longest Substring Without Repeating Character, Leetcode 771. Jewels and Stones, Leetcode 706. Design HashMap <br>
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
