@@ -78,5 +78,7 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 1.13 - Leetcode 347.Top K Frequent Element, Leetcode 3. Longest Substring Without Repeating Character, Leetcode 771. Jewels and Stones, Leetcode 706. Design HashMap <br>
 1.14 - Leetcode 200. Number of Islands, Leetcode 17. Letter Combinations of a Phone Number , Leetcode 46. Permutations <br>
 1.15 - Leetcode 77. Combination <br>
+1.16 - Deployed Todo Application's frontend, resolved CORS problem at backend <br>
+1.17 - Set domain using Route53 <br>
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
