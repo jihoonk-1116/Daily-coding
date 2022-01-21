@@ -82,6 +82,6 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 1.17 - Set domain using Route53, Leetcode 39. Combination Sum, Leetcode 78. Subsets <br>
 1.18 - Register HTTPS certificate using AWS Certificate Manager, Add listener to Load balancers of frontend and backend load balancer <br>
 1.19 - Leetcode 207. Course Schedule <br>
-1.20 - Leetcode 687. Longest Univalue Path, Leetcode 543. Diameter of Binary Tree, Leetcode 104. Maximum Depth of Binary Tree <br>
+1.20 - Leetcode 687. Longest Univalue Path, Leetcode 543. Diameter of Binary Tree, Leetcode 104. Maximum Depth of Binary Tree, Leetcode 226. Invert Binary Tree <br>
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
