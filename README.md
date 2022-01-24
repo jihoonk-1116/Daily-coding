@@ -84,7 +84,7 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 1.19 - Leetcode 207. Course Schedule <br>
 1.20 - Leetcode 687. Longest Univalue Path, Leetcode 543. Diameter of Binary Tree, Leetcode 104. Maximum Depth of Binary Tree, Leetcode 226. Invert Binary Tree, Leetcode 617. Merge Two Binary Trees <br>
 1.21 - Leetcode 310. Minimum Height Trees, Leetcode 110. Balanced Binary Tree, Leetcode 297. Serialize and Deserialize Binary Tree <br>
-1.22 - Leetcode 108. Converted Sorted Array To BST <br>
+1.22 - Leetcode 108. Converted Sorted Array To BST, Leetcode 1038 <br>
 1.23 - Leetcode 105, Leetcode 783, Leetcode 938 <br>
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
