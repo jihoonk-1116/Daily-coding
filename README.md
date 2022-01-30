@@ -88,5 +88,6 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 1.23 - Leetcode 105. Construct Binary Tree From Preorder and Inorder , Leetcode 783. Minimum Distance Between BST Nodes, Leetcode 938. Range Sum of BST <br>
 1.24 - Leetcode 147. Insertion Sort List , Leetcode 56. Merge Intervals, Leetcode 148. Sort List <br>
 1.25, 26, 27, 28 - Solved Leetcode problems <br>
+1.29 - Leetcode 122. Best Time to Buy and Sell Stock 2
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
