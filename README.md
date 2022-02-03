@@ -88,6 +88,12 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 1.23 - Leetcode 105. Construct Binary Tree From Preorder and Inorder , Leetcode 783. Minimum Distance Between BST Nodes, Leetcode 938. Range Sum of BST <br>
 1.24 - Leetcode 147. Insertion Sort List , Leetcode 56. Merge Intervals, Leetcode 148. Sort List <br>
 1.25, 26, 27, 28 - Solved Leetcode problems <br>
-1.29 - Leetcode 122. Best Time to Buy and Sell Stock 2
+1.29 - Leetcode 122. Best Time to Buy and Sell Stock 2 <br>
+1.31 - Implemented Member domain and MemberRepository to manage member's data on system memory. Tested Repository methods by Junit test method
+
+## FEB. 2022
+
+2.01 - Implemented MemberService and its test unit. Utilized Dependency Injection during testing.Implemented MemberController and SpringConfig to register Spring Bean manually. Set dependency relation between Controller - Service - Repository. <br>
+2.02 - Implemented JdbcTemplateMemberRepository and MemberServiceIntegrationTest, Leetcode 2156. Find Substring With Given Hash Value <br>
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
