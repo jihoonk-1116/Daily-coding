@@ -4,12 +4,12 @@ class Solution:
     def isPalindrome(self, s: str) -> bool:
         result = list()
         for c in s:
-            if c.isalnum():
+            if c.isalnum(): #Check if c is alphabet or number, not space
                 result.append(c.lower())
                 
         while len(result)>1:
-            if result.pop(0) != result.pop():
-                return False
+            if result.pop(0) != result.pop(): #list's pop(0) takes O(n)
+                return False                  #So,O(n^2)
         
         return True
       
@@ -23,7 +23,7 @@ class Solution:
                 result.append(c.lower())
                 
         while len(result)>1:
-            if result.popleft() != result.pop():
+            if result.popleft() != result.pop(): #Deque's popleft takes O(1). It's like Doubly-Linked List
                 return False
         
         return True
