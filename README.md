@@ -95,5 +95,7 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 
 2.01 - Implemented MemberService and its test unit. Utilized Dependency Injection during testing.Implemented MemberController and SpringConfig to register Spring Bean manually. Set dependency relation between Controller - Service - Repository. <br>
 2.02 - Implemented JdbcTemplateMemberRepository and MemberServiceIntegrationTest, Leetcode 2156. Find Substring With Given Hash Value <br>
+2.03 - Valid Palindrome, Reverse String <br>
+2.04 - JPA
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
