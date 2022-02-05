@@ -97,5 +97,6 @@ Personal challenge to enhence programming skill and expand developing knowledge 
 2.02 - Implemented JdbcTemplateMemberRepository and MemberServiceIntegrationTest, Leetcode 2156. Find Substring With Given Hash Value <br>
 2.03 - Valid Palindrome, Reverse String <br>
 2.04 - Implemented JpaMemberRepository. Used JPA skills instead of JDBC. Passed member service integration test. ,Implemented SpringDataJpaMemberRespository to use Spring Data JPA. Leetcode. Reorder log files <br>
+2.05 - Added description for Operating System projects in its README file <br>
 
 #### Some source from https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d by Dinesh Varyani on YouTube
