@@ -16,10 +16,10 @@ class Solution:
 class Solution:
     def twoSum(self, nums:List[int], target: int) -> List[int]:
         
-        num_dict = dict()
+        num_dict = dict() 
         
-        for i, num in enumerate(nums):
-            complement = target - num
-            if complement in num_dict:
-                return [i, num_dict[complement]]
-            num_dict[nums] = i
+        for i, num in enumerate(nums):  #Iteration nums list
+            complement = target - num 
+            if complement in num_dict:  #Find complement in num_dict by target - nums[i] = nums[i2] 
+                return [i, num_dict[complement]] #if found, return index and value of the key 
+            num_dict[nums] = i #If the complement does not exist, then add it to num_dict
