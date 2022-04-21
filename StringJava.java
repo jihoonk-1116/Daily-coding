@@ -292,6 +292,56 @@ public class p1 {
             return false;
 
         }
+        public void q10() {
+
+            String str = "KKHSSSSSSSE";
+            HashMap<Character, Integer> map = new HashMap<>();
+
+            for (char c : str.toCharArray()) {
+                if (!map.containsKey(c)) {
+                    Integer n = 1;
+                    map.put(c, n);
+                } else {
+                    map.put(c, map.get(c) + 1);
+                }
+            }
+
+            ArrayList<String> ans = new ArrayList<>();
+            char pre = str.charAt(0);
+
+            for (int i = 0; i < str.length(); i++) {
+                if (pre != str.charAt(i) || i == 0) {
+                    ans.add(String.valueOf(str.charAt(i)));
+                    ans.add(String.valueOf(map.get(str.charAt(i))));
+                }
+                pre = str.charAt(i);
+            }
+
+            System.out.println(ans.toString().replaceAll("[^2-9^A-Z]", ""));
+        }
+
+        public void q10_1(){
+            String str = "KKHSSSSSSSE";
+
+            String ans = "";
+            int count=1;
+
+            str = str + " ";
+            for(int i =0;i<str.length()-1;i++){
+                if(str.charAt(i) == str.charAt(i+1)){
+                    count++;
+                }
+                else{
+                    ans += str.charAt(i);
+                    if(count == 1){
+                        continue;
+                    }
+                    ans += String.valueOf(count);
+                    count = 1;
+                }
+            }
+            System.out.println(ans);
+        }
     }
 
     public static void main(String[] args) {
