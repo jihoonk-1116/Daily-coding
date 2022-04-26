@@ -575,6 +575,39 @@ public class p1 {
             System.out.println("ans = " + ans);
 
         }
+         public void q16(){
+            int [][] input = {
+                    {3,4,1,2},
+                    {4,3,2,1},
+                    {3,1,4,2}
+            };
+            int ans = 0;
+            //1. pick 2 student
+            //2. look up a test and find their score
+            //3. compare the scores
+            //4. if st1 has higher score, cnt++
+            //5. if cnt = 3, which means st1 is higher than st2 at the all tests,
+            //   then, increase ans. or save (st1, st2)
+            for(int st1=0;st1<input[0].length;st1++){
+                for(int st2=0;st2<input[0].length;st2++){
+                    int cnt = 0;
+                    for(int test=0;test<input.length;test++){
+
+                        int st1Rank = 0, st2Rank = 0;
+
+                        for(int score=0;score<input[0].length;score++){
+                            if(input[test][score]==(st1+1)) st1Rank = score;
+                            if(input[test][score]==(st2+1)) st2Rank = score;
+                        }
+                        if(st1Rank < st2Rank) cnt++;
+                    }
+                    if(cnt == input[0].length){
+                        ans++;
+                    }
+                }
+            }
+            System.out.println("ans = " + ans);
+        }
 
         public static void main(String[] args) {
 
