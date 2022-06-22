@@ -1,0 +1,70 @@
+public class StreamPrac {
+    public static void main(String[] args) {
+// parameter -> expression
+        // (parameter1, parameter2) -> { code block }
+
+        int arr[] = { 1, 2, 3, 4, 5 };
+
+        Arrays.stream(arr).forEach((n) -> {
+            System.out.print(n + " ");
+        });
+        System.out.println();
+
+        // partially iterate
+        Arrays.stream(arr, 1, 3).forEach((n) -> {
+            System.out.print(n + " ");
+        });
+        System.out.println();
+        ArrayList<Integer> list = new ArrayList<>();
+        Arrays.stream(arr).forEach((n) -> {
+            if (n % 2 == 0) {
+                list.add(n);
+            }
+        });
+        list.forEach((n) -> {
+            System.out.print(n + " ");
+        });
+        System.out.println();
+
+        System.out.println("Sum of array: ");
+        int arrSum = Arrays.stream(arr).sum();
+        System.out.println(arrSum);
+
+        System.out.println("Max of array: ");
+        int arrMax = Arrays.stream(arr).max().getAsInt(); // return optional so need to use getAsInt
+        System.out.println(arrMax);
+
+        System.out.println("Min of array: ");
+        int arrMin = Arrays.stream(arr).min().getAsInt();
+        System.out.println(arrMin);
+
+        System.out.println("Fill: ");
+        Arrays.fill(arr, 5);
+        System.out.println(Arrays.toString(arr));
+
+        String[] strArr = { "Hi", "Hello", "Gym", "coding" };
+
+        // Array to List
+        List<String> strList = Arrays.asList(strArr);
+        System.out.println(strList.toString());
+
+        // To upper
+        List<String> upperList = new ArrayList<>();
+        Arrays.stream(strArr).forEach((s) -> {
+            upperList.add(s.toUpperCase());
+        });
+        System.out.println(upperList.toString());
+
+        int count = (int) strList.stream()
+                .filter(s -> s.startsWith("H"))
+                .count();
+        System.out.println(count);
+
+        // split for generating a list
+        String str = "Helloworld:HappyCoding:Gimocci:Welcome";
+        List<String> tokens = Arrays.asList(str.split(":"));
+        System.out.println(tokens.toString());
+
+        
+   }
+}
