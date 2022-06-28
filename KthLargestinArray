@@ -1,0 +1,22 @@
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        //max heap
+        //for to put all nums element to pq
+        //find k th largest -> need to ignore duplicated value 
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        
+        for(int n : nums){
+            if(pq.size() < k) pq.offer(n); //always the pq's top is k th largest element
+            else{
+                //thus only when n is greater than the top element, 
+                //add n to the q after remove the top
+                if(pq.peek() < n){ 
+                    pq.remove();
+                    pq.offer(n);
+                }
+            }
+        }
+  
+        return pq.peek();
+    }
+}
