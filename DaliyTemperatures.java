@@ -1,42 +1,56 @@
 class Solution {
     
-    static class Temp{
+    public int[] dailyTemperatures(int[] temperature){
         
-        public int value;
-        public int index;
+        Stack<int[]> st = new Stack();
+        int [] res = new int[temperature.length];
         
-        public Temp(int v, int i){
-            this.value = v;
-            this.index = i;
-        }
-        
-    }
-    
-    public int[] dailyTemperatures(int[] temperatures) {
-        //stack -> LIFO 
-        //push one by one
-        //compare current and top one of stack
-        //if current value is higher than the one.
-        //then pop and insert answer using lt 
-        //increae lt whenever it's used
-        //monotonic stack -> a stack formed in decrasing order
-        
-        Stack<Temp> st = new Stack<>();
-        int [] res = new int[temperatures.length];
-    
-        for(int i=0;i<temperatures.length;i++){
+        for(int i=0;i<temperature.length;i++){
             
-            while(!st.isEmpty() && 
-                  st.peek().value < temperatures[i]){
-                    
-                    Temp t = st.pop();
-                    res[t.index] = i - t.index;
-
-
-                }
-            st.push(new Temp(temperatures[i], i));
+            while(!st.isEmpty() && st.peek()[0] < temperature[i]){
+                int [] prevTemp = st.pop();
+                res[prevTemp[1]] = i - prevTemp[1];
+            }
+            
+            int[] curTemp = new int[]{temperature[i], i};
+            st.push(curTemp);
+            
         }
         
         return res;
+        
     }
+    
+    
+//     static class Temp{
+        
+//         public int value;
+//         public int index;
+        
+//         public Temp(int v, int i){
+//             this.value = v;
+//             this.index = i;
+//         }
+        
+//     }
+    
+    
+//     public int[] dailyTemperatures(int[] temperatures) {
+        
+//         Stack<Temp> st = new Stack<>();
+//         int [] res = new int[temperatures.length];
+    
+//         for(int i=0;i<temperatures.length;i++){
+            
+//             while(!st.isEmpty() && st.peek().value < temperatures[i]){
+                    
+//                     Temp t = st.pop();
+//                     res[t.index] = i - t.index;
+                
+//                 }
+//             st.push(new Temp(temperatures[i], i));
+//         }
+        
+//         return res;
+//     }
 }
