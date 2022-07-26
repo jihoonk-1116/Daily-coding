@@ -8,45 +8,47 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+/*
+public ListNode removeNthFromEnd(ListNode head, int n) {
+    ListNode dummy = new ListNode(0);
+    dummy.next = head;
+    int length  = 0;
+    ListNode first = head;
+    while (first != null) {
+        length++;
+        first = first.next;
+    }
+    length -= n;
+    first = dummy;
+    while (length > 0) {
+        length--;
+        first = first.next;
+    }
+    first.next = first.next.next;
+    return dummy.next;
+}
+*/
+// The "dummy" node is used to simplify some corner cases such as a list with only one node, or removing the head of the list.
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        //1. measure the list's length
-        //2. traverse from the end of the list to nth 
-        ListNode tempNode = head;
-        int length = 0;
         
-        while(tempNode!=null){
-            length++;
-            tempNode = tempNode.next;
+        if(head.next == null) return null;
+    
+        ListNode dummy = new ListNode(0,head);
+        ListNode lt = dummy;
+        ListNode rt = head;
+        
+        while(n > 0 && rt != null){
+            rt = rt.next;
+            n--;
         }
         
-        if(length == 1) return null;
-        
-        int target = length - n; //if 5 nodes , n=2, target = 3
-        
-        if(target == 0){ //length == n -> means remove the first 
-            head = head.next;
-            return head;
+        while(rt != null){
+            rt = rt.next;
+            lt = lt.next;
         }
         
-        ListNode prevTempNode = null; //Use slow pointer
-        
-        while(target>0){
-            if(prevTempNode == null){ //if the first loop
-                tempNode = head.next;
-                prevTempNode = head;
-            }
-            else{
-                prevTempNode = prevTempNode.next;
-                tempNode = tempNode.next;
-            }
-            target--;
-        }
-        
-        if(tempNode.next == null) prevTempNode.next= null;
-        else prevTempNode.next = tempNode.next;
-        
-        return head;
-        
+        lt.next = lt.next.next;
+        return dummy.next;
     }
 }
