@@ -1,22 +1,49 @@
-class Solution {
-    public int findKthLargest(int[] nums, int k) {
-        //max heap
-        //for to put all nums element to pq
-        //find k th largest -> need to ignore duplicated value 
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+// class Solution {
+//     public int findKthLargest(int[] nums, int k) {
+//         //max heap
+//         //for to put all nums element to pq
+//         //find k th largest -> need to ignore duplicated value 
+//         PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b) -> b-a);
+//         for(int n : nums) maxHeap.offer(n);
+//         for(int i=0;i<k-1;i++) maxHeap.poll();
         
-        for(int n : nums){
-            if(pq.size() < k) pq.offer(n); //always the pq's top is k th largest element
-            else{
-                //thus only when n is greater than the top element, 
-                //add n to the q after remove the top
-                if(pq.peek() < n){ 
-                    pq.remove();
-                    pq.offer(n);
-                }
+//         return maxHeap.poll();
+//     }
+// }
+
+class Solution {
+    
+    public int findKthLargest(int[] nums, int k) {
+        int len = nums.length;
+        quickSelect(nums, k, 0, len-1);
+        return nums[k-1];
+    }
+    
+    public void quickSelect(int[] nums, int K, int lo, int hi) {
+        
+        if (lo >= hi) return;
+        
+        int pivotInd = lo + (hi-lo) / 2;
+        int pivot = nums[pivotInd];
+        swap(nums, pivotInd, hi);
+     
+        int s = lo;
+        for (int i = lo; i < hi; i++) {
+            if (nums[i] > pivot) {
+                swap(nums, i, s);
+                s++;
             }
         }
-  
-        return pq.peek();
+        swap(nums, hi, s);
+        
+        if (s == K-1) return;
+        else if (s < K-1) quickSelect(nums, K, s + 1, hi); //search right side of the pivot 
+        else quickSelect(nums, K, lo, s - 1); //search left side of the pivot 
+    }
+    
+    private void swap(int[] nums, int a, int b) {
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
     }
 }
