@@ -1,25 +1,31 @@
+//memoization
+class Solution {
+    int [] memo;
+    public int minCostClimbingStairs(int[] cost) {
+        memo = new int[cost.length];
+        memo[0] = cost[0];
+        memo[1] = cost[1];
+        helper(cost, cost.length-1);
+        return Math.min(memo[cost.length-1], memo[cost.length-2]);
+        
+    }
+    private int helper(int[] cost, int index){
+        if(index < 0) return 0;
+        if(memo[index] != 0) return memo[index];
+        return memo[index] = cost[index] + Math.min(helper(cost,index-1), helper(cost, index-2));
+    }
+}
+
+//tabulation
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
-        int[] dp = new int[cost.length];
-        
-        for(int i=0;i<cost.length;i++){
-            if(i<2){
-                dp[i] = cost[i];
-            }
-            else{
-                dp[i] = cost[i] + Math.min(dp[i-1], dp[i-2]);
-            }
+        int res = 0;
+        int[] table = new int[cost.length];
+        table[0] = cost[0];
+        table[1] = cost[1];
+        for(int i=2;i<cost.length;i++){
+            table[i] = Math.min(table[i-2], table[i-1]) + cost[i];
         }
-        
-        return Math.min(dp[cost.length-1],dp[cost.length-2]);
-    }
-    
-    private int helper(int[] cost, int n){
-        if(n < 0) return 0;
-        if(n == 0 || n == 1) return cost[n];
-        if(dp[n] != 0) return dp[n];
-        
-        return dp[n] = cost[n] + Math.min(helper(cost, n-1), helper(cost, n-2));
-      
+        return Math.min(table[cost.length-1], table[cost.length-2]);
     }
 }
