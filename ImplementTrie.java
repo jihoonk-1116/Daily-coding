@@ -1,15 +1,11 @@
 class Trie {
-    
     public class Node{
-        
         Node[] children;
         boolean isEnd;
-        
         public Node(){
             this.children = new Node[26];
             this.isEnd = false;
         }
-        
     }
     
     private Node root;
@@ -19,19 +15,14 @@ class Trie {
     
     public void insert(String word) {
         Node w = this.root;
-        
         for(char c : word.toCharArray()){
-            
             int i = c - 'a';
-            
             if(w.children[i] == null){
                 w.children[i] = new Node();
             }
             w = w.children[i];
         }
-        
         w.isEnd = true;
-        
     }
     
     public boolean search(String word) {
@@ -44,7 +35,6 @@ class Trie {
             }
             w = w.children[i];
         }
-        
         return w.isEnd;
     }
     
